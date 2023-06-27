@@ -48,9 +48,9 @@ const MovieDetails = ({ selectedId, onCloseMovie, KEY }) => {
         </div>
       </header>
       <section>
-        <div className="rating">
+        {/* <div className="rating">
           <StarRating maxRating={10} size={24} />
-        </div>
+        </div> */}
         <p>
           <em>{plot}</em>
         </p>
